@@ -1,0 +1,9 @@
+{
+    "paperId": "integer|primary_key|auto_increment",
+    "paperName": "string",
+    "paperGSM": "string",
+    "paperQuantity": "string",
+    "paperPrice": "string",
+    "paperUpdated": "timestamp",
+    "paperIdentify": "string"
+}

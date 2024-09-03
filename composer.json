@@ -1,0 +1,26 @@
+{
+    "name": "avantvista/corexphp",
+    "description": "CoreXPHP MVC Framework",
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "files": [
+            "app/core/Function.php",
+            "app/core/App.php",
+            "app/core/Controller.php",
+            "app/core/Request.php",
+            "app/core/Response.php",
+            "app/core/MiddlewareInterface.php",
+            "app/core/Router.php",
+            "app/core/Database.php",
+            "app/core/Model.php",
+            "app/core/QueryBuilder.php",
+            "app/core/Validator.php",
+            "app/core/Paginator.php",
+            "app/core/Language.php",
+            "app/core/View.php"
+        ]
+    }
+}
