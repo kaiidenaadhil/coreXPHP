@@ -24,6 +24,7 @@
         ]
     },
     "minimum-stability": "stable",
+    "license": "MIT",
     "prefer-stable": true,
     "repositories": [
         {
