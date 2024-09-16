@@ -1,26 +1,23 @@
+# CoreXPHP
 
-### 4. Upload Your Package
+CoreXPHP is a lightweight MVC framework for PHP designed to provide a clean and efficient development experience. It offers essential features for building robust web applications while allowing you to extend and customize its functionality.
 
-1. **Push Code to GitHub**:
-   - Ensure your code and `composer.json` are pushed to the GitHub repository.
+## Features
 
-2. **Tag a Release**:
-   - Create a new release on GitHub with the version number (e.g., `v1.0.0`).
+- **MVC Architecture**: Supports Model-View-Controller pattern for clean separation of concerns.
+- **Routing**: Flexible routing to handle various HTTP methods and dynamic parameters.
+- **Database**: Integrated database connection and query builder.
+- **Validation**: Built-in validation for handling user input.
+- **Pagination**: Easy-to-use pagination system for managing large datasets.
+- **Middleware**: Support for middleware to manage request handling.
+- **Localization**: Language support for multi-language applications.
+- **PHPMailer**: Integrated email functionality with PHPMailer.
 
-### 5. Publish to Packagist (Optional but recommended)
+## Installation
 
-1. **Create a Packagist Account**:
-   - Go to [Packagist](https://packagist.org/) and sign up.
+To install CoreXPHP via Composer, follow these steps:
 
-2. **Submit Your Package**:
-   - Add a new package by providing the URL to your GitHub repository.
+1. **Require the Package**
 
-3. **Configure Webhooks**:
-   - Set up webhooks on GitHub to notify Packagist of new releases automatically.
-
-### 6. Verify Installation
-
-Test the installation by requiring your package in a fresh Composer project:
-
-```bash
-composer require kaiidenaadhil/corexphp
+   ```bash
+   composer require kaiidenaadhil/corexphp
